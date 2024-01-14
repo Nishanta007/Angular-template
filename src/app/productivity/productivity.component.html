@@ -1,0 +1,39 @@
+<div class="w-full bg-[#f7f0fd] p-28">
+    <div class="w-full text-center pb-20 ">
+        <h1 class="text-[3rem] leading-relaxed font-semibold w-full">
+            <span class="bg-[#FFC200] rounded-md">Boost Your Productivity</span>
+        </h1>
+        <p class="text-[#808080]">Suite of marketing tools designed to improve your day-to-day life as a marketer.</p>
+    </div>
+    <div class="w-[70%] mx-auto flex justify-around">
+        <ul class="flex">
+            <li [ngClass]="{'text-[#007AC6] border-active border-b-2 border-[#007AC6] text-active': activeTab === 1}" class="text-2xl mr-12 mb-1 font-semibold ">
+                <button (click)="changeText(1)">Quick Insights</button>
+            </li>
+            <li [ngClass]="{'text-[#007AC6] border-active border-b-2 border-[#007AC6] text-active': activeTab === 2}" class="text-2xl mr-12 mb-1 font-semibold ">
+                <button (click)="changeText(2)">Reports</button>
+            </li>
+            <li [ngClass]="{'text-[#007AC6] border-active border-b-2 border-[#007AC6] text-active': activeTab === 3}" class="text-2xl mr-12 mb-1 font-semibold ">
+                <button (click)="changeText(3)">Connector</button>
+            </li>
+            <li [ngClass]="{'text-[#007AC6] border-active border-b-2 border-[#007AC6] text-active': activeTab === 4}" class="text-2xl mr-12 mb-1 font-semibold ">
+                <button (click)="changeText(4)">Team Management</button>
+            </li>
+        </ul>
+    </div>
+    <div class="w-full inline-flex justify-around">
+        <div class="w-[45%] pr-16">
+        
+            <div class="mt-12">
+                <h1 class="text-[2.75rem] leading-relaxed font-semibold w-full">{{ currentText.heading }}</h1>
+                <p class="text-sm leading-7 mt-3 text-[#808080] md:w-11/12 mb-3 md:max-w-lg md:text-base md:leading-7">{{ currentText.desc }}</p>
+                <div class="mt-10">
+                    <app-blue-btn></app-blue-btn>
+                </div>
+            </div>
+        </div>
+        <div class="w-[50%] mt-12 pl-20">
+                <app-video-frame></app-video-frame>
+        </div>
+    </div>
+</div>

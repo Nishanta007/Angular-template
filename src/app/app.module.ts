@@ -10,6 +10,8 @@ import { MarketingComponent } from './marketing/marketing.component';
 import { VideoFrameComponent } from './video-frame/video-frame.component';
 import { LogosComponent } from './logos/logos.component';
 import { DecisionsComponent } from './decisions/decisions.component';
+import { ProductivityComponent } from './productivity/productivity.component';
+import { PowerhouseComponent } from './powerhouse/powerhouse.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { DecisionsComponent } from './decisions/decisions.component';
     MarketingComponent,
     VideoFrameComponent,
     LogosComponent,
-    DecisionsComponent
+    DecisionsComponent,
+    ProductivityComponent,
+    PowerhouseComponent
   ],
   imports: [
     BrowserModule,

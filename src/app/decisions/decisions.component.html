@@ -1,7 +1,7 @@
 <div class="w-full p-20">
-    <div class="w-full text-center my-16 border ">
-        <h1 class="text-[3rem] leading-relaxed font-semibold w-full border">
-            <span class="bg-[#FFC200] rounded-md border">Data-Driven</span>Marketing Decisions
+    <div class="w-full text-center my-16 ">
+        <h1 class="text-[3rem] leading-relaxed font-semibold w-full">
+            <span class="bg-[#FFC200] rounded-md">Data-Driven</span> Marketing Decisions
         </h1>
     </div>
     <div class="w-full inline-flex justify-around">
@@ -19,8 +19,8 @@
             </ul>
         
             <div class="mt-12">
-                <h1 class="text-[2.75rem] leading-relaxed font-semibold w-full border">{{ currentText.heading }}</h1>
-                <p class="text-sm leading-7 text-[#808080] md:w-11/12 mb-3 md:max-w-lg md:text-base md:leading-7">{{ currentText.desc }}</p>
+                <h1 class="text-[2.75rem] leading-relaxed font-semibold w-full">{{ currentText.heading }}</h1>
+                <p class="text-sm leading-7 text-[#808080] mt-3 md:w-11/12 mb-3 md:max-w-lg md:text-base md:leading-7">{{ currentText.desc }}</p>
         
                 <ul class="pl-6 text-[#808080] list-disc marker:text-[#808080]" *ngFor="let item of currentText.list">
                     <li class="text-base leading-8">{{ item.li }}</li>
@@ -30,7 +30,7 @@
                 </div>
             </div>
         </div>
-        <div class="w-[50%] mt-12 pl-20 border">
+        <div class="w-[50%] mt-12 pl-20">
                 <app-video-frame></app-video-frame>
         </div>
     </div>
