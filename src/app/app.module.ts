@@ -9,6 +9,7 @@ import { HeroComponent } from './hero/hero.component';
 import { MarketingComponent } from './marketing/marketing.component';
 import { VideoFrameComponent } from './video-frame/video-frame.component';
 import { LogosComponent } from './logos/logos.component';
+import { DecisionsComponent } from './decisions/decisions.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { LogosComponent } from './logos/logos.component';
     HeroComponent,
     MarketingComponent,
     VideoFrameComponent,
-    LogosComponent
+    LogosComponent,
+    DecisionsComponent
   ],
   imports: [
     BrowserModule,
