@@ -7,6 +7,8 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { BlueBtnComponent } from './blue-btn/blue-btn.component';
 import { HeroComponent } from './hero/hero.component';
 import { MarketingComponent } from './marketing/marketing.component';
+import { VideoFrameComponent } from './video-frame/video-frame.component';
+import { LogosComponent } from './logos/logos.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { MarketingComponent } from './marketing/marketing.component';
     NavBarComponent,
     BlueBtnComponent,
     HeroComponent,
-    MarketingComponent
+    MarketingComponent,
+    VideoFrameComponent,
+    LogosComponent
   ],
   imports: [
     BrowserModule,
